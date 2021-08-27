@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Rampart One', cursive, 'Rye';
+    color: black;
+}
+
+body{
+    
+    background: linear-gradient(rgb(138, 13, 138),violet,white);
+    background-repeat: no-repeat;
+    
+}
+
+/* Logo jojo's */
+
+#logo-jojos {
+    
+    width: 600px;
+}
+
+#img-inicio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+}
+
+
+.filas {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.item{
+    padding: 10px;
+}
+
+/* Botón click */
+
+#boton-click {
+    font-family: 'Rye';
+    margin-top: 5px;
+    margin-bottom: 20px;
+    color: black;
+    width: 100px;
+    height: 50px;
+    font-size: 25px;
+    background-color: rgba(175, 36, 168, 0.829);
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgb(17, 16, 16);
+    border: solid 2px rgba(0, 0, 0, 0.801);
+    cursor: pointer;
+}
+
+#boton-click:hover {
+    background-color: rgba(221, 26, 221, 0.829);
+}
+
+/* Select elección de mundo */
+#eleccion-mundos {
+    
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 230px;
+    font-size: 20px;
+    border-radius: 20px;
+    border:none;
+    
+}
+
+.mundos, #num-user {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+/* Input para ingresar un número */
+
+#num-user {
+    border-radius: 20px;
+    border:none;
+    width: 150px;
+    height: 26px;
+    text-align: center;
+}
+
+#centrado {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.bloques-inicio {
+     width: 30%;
+     text-align: center;
+}
+
+#contenedor-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+#img-user, #img-stand {
+    width: 290px;
+    text-align: center;
+    
+}
