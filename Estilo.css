@@ -23,7 +23,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 5px;
+    margin-top: 20px;
 }
 
 
@@ -61,12 +61,12 @@ body{
 
 /* Select elección de mundo */
 #eleccion-mundos {
-    
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    width: 230px;
+    width: 240px;
     font-size: 20px;
     border-radius: 20px;
-    border:none;
+    border: none;
+    outline: none;
     
 }
 
@@ -107,5 +107,22 @@ body{
 #img-user, #img-stand {
     width: 290px;
     text-align: center;
-    
+    border-radius: 40px;
+}
+
+.oculto{
+    display:none;
+}
+
+.container{
+    border: solid 2px red;
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card {
+    background-color: rgba(255, 255, 255, 0.068);
+    border-radius: 40px;
 }
