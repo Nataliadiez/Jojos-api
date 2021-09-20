@@ -115,7 +115,6 @@ body{
 }
 
 .container{
-    border: solid 2px red;
     display: flex;
     justify-content:center;
     flex-direction: column;
