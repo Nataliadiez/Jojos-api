@@ -107,7 +107,7 @@ body{
 #img-user, #img-stand {
     width: 290px;
     text-align: center;
-    border-radius: 40px;
+    /* border-radius: 40px; */
 }
 
 .oculto{
