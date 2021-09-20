@@ -125,3 +125,7 @@ body{
     background-color: rgba(255, 255, 255, 0.068);
     border-radius: 40px;
 }
+
+.animate__animated.animate__flip{
+    --animate-duration: 2s !important;
+}

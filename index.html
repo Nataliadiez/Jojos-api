@@ -10,6 +10,9 @@
     <!-- MI CSS -->
     <link rel="stylesheet" href="./Estilo.css">
 
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
     <!-- Fuentes -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,15 +21,17 @@
 <title>¿Cuál es tu Jojo?</title>
 </head>
 <body>
+    <!-- animate__animated animate__bounce -->
     
     <div class="container">
         <div id="img-inicio">
-            <img class="img-fluid" id="logo-jojos" src="https://occ-0-1068-1723.1.nflxso.net/dnm/api/v6/LmEnxtiAuzezXBjYXPuDgfZ4zZQ/AAAABW7mACKmNvV__ZxlpAHSX3lCYUF1A7FDagjdN3G_HeMJLMhOy_r9SoSY7wqji81topQX29Birx-yvNSqAchAH2OCwyxvv3cETehZ.png?r=e6f" alt="">
+            <audio id="efecto-sonido" src="" autoplay></audio>
+            <img class="animate__animated img-fluid" id="logo-jojos" src="https://occ-0-1068-1723.1.nflxso.net/dnm/api/v6/LmEnxtiAuzezXBjYXPuDgfZ4zZQ/AAAABW7mACKmNvV__ZxlpAHSX3lCYUF1A7FDagjdN3G_HeMJLMhOy_r9SoSY7wqji81topQX29Birx-yvNSqAchAH2OCwyxvv3cETehZ.png?r=e6f" alt="" onclick="efectos()">
         </div>  
 
                 <h2>¿Qué JoJo eres?</h2>
-                <select name="" id="eleccion-mundos">
-                     <option value="" class="mundos">Elija una parte</option>
+                <select name="" id="eleccion-mundos" class="musica-mundo">
+                    <option value="" class="mundos">Elija una parte</option>
                     <option value= "1" class="mundos">Stardust Crusaders</option>
                     <option value= "2" class="mundos"> Diamond is Unbreakable</option>
                     <option value= "3" class="mundos">Golden Wind</option>
@@ -37,7 +42,7 @@
                 <input id="boton-click" type="submit" value="Click">
                 
                 
-                    <div class="card" style="width: 18rem;">
+                    <div class="card oculto" style="width: 18rem;">
                         <img src="" id="img-user" class="card-img-top" alt="">
                         <img src="" id="img-stand" class="card-img-top" alt="">
                         <div class="card-body">
